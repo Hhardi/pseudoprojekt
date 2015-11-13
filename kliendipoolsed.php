@@ -59,6 +59,7 @@
 
 <button id="paremklops">Luba paremklõps</button>
 <script>
+
     $(document).contextmenu( function() {
         return false;
     });
