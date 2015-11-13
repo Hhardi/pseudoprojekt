@@ -12,6 +12,14 @@
         alert("Tere maailm");
     }
 </script>
+<a href="javascript:AlertIt();">Tere maailm</a>
 
+<script type="text/javascript">
+    function AlertIt() {
+        var answer = confirm ("Tere maailm")
+        if (answer)
+            window.location="http://khk.ee";
+    }
+</script>
 </body>
 </html>
