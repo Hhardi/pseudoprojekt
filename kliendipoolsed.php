@@ -5,7 +5,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <title>Document</title>
 </head>
-<body id="go">
+<body id="go" >
 <button onclick="myFunction()">Tere maailm</button>
 <script>
     function myFunction() {
@@ -55,6 +55,11 @@
     $("#green").click(function(){
         $("#go").css("background-color","green");
     });
+</script>
+<script>
+$('*').contextmenu( function() {
+return false;
+});
 </script>
 
 </body>
