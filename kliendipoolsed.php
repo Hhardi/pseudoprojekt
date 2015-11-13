@@ -58,6 +58,7 @@
     });
 </script>
 
+
 <button id="paremklops">Luba paremklõps</button>
 <script>
 
