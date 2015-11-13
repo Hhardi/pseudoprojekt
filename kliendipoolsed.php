@@ -69,6 +69,13 @@
     });
 </script>
 <button>Kassipilt</button>
+<script>
+    $(document).ready(function() {
+        $("button").click(function () {
+            $("img").toggle();
+        });
+    });
+</script>
 
 
 </body>
