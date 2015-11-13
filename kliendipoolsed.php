@@ -5,7 +5,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <title>Document</title>
 </head>
-<body>
+<body id="go">
 <button onclick="myFunction()">Tere maailm</button>
 <script>
     function myFunction() {
@@ -39,6 +39,22 @@
             image.src = "http://goo.gl/j8IQ8c";
         }
     }
+</script>
+
+<button id="red">Red</button>
+<button id="blue">Blue</button>
+<button id="green">Green</button>
+<script>
+
+    $("#red").click(function(){
+        $("#go").css("background-color","red");
+    });
+    $("#blue").click(function(){
+        $("#go").css("background-color","blue");
+    });
+    $("#green").click(function(){
+        $("#go").css("background-color","green");
+    });
 </script>
 
 </body>
