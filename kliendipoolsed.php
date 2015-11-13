@@ -21,5 +21,12 @@
             window.location="http://khk.ee";
     }
 </script>
+
+<a href="http://www.w3schools.com" onclick="navigeerimatu(); event.preventDefault();">Jääme siia</a>
+<script>
+    function navigeerimatu() {
+        alert("Jääme siia");
+    }
+</script>
 </body>
 </html>
