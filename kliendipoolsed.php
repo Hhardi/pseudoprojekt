@@ -56,11 +56,19 @@
         $("#go").css("background-color","green");
     });
 </script>
+
+<button id="paremklops">Luba paremklõps</button>
 <script>
-$('*').contextmenu( function() {
-return false;
-});
+    $(document).contextmenu( function() {
+        return false;
+    });
+
+    $('#paremklops').click(function(){
+        $(document).unbind();
+    });
 </script>
+<button>Kassipilt</button>
+
 
 </body>
 </html>
