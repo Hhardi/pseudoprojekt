@@ -28,5 +28,18 @@
         alert("Jääme siia");
     }
 </script>
+
+<img id="kass" onclick="changeImage()" src="http://goo.gl/Q1670b" width="200" height="150">
+<script>
+    function changeImage() {
+        var image = document.getElementById('kass');
+        if (image.src.match("koer")) {
+            image.src = "http://goo.gl/Q1670b";
+        } else {
+            image.src = "http://goo.gl/j8IQ8c";
+        }
+    }
+</script>
+
 </body>
 </html>
