@@ -31,6 +31,7 @@
 
 <img id="kass" onclick="changeImage()" src="http://goo.gl/Q1670b" width="200" height="150">
 <script>
+
     function changeImage() {
         var image = document.getElementById('kass');
         if (image.src.match("koer")) {
