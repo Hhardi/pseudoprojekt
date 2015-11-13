@@ -12,6 +12,9 @@ echo '('.$vanus.')';
 echo '<br>';
 echo $isik[0].$isik[1].$isik[2];
 
+if ($eesnimi_algab_vokaaliga) {
+    echo 'Nimi algab vokaaliga';
+}
 
 
 ?>
