@@ -19,6 +19,7 @@ if ($eesnimi_algab_vokaaliga) {
     echo 'Nimi algab vokaaliga';
 }
 echo '<br>'.($var1 + $var2);
+echo '<br>'.$_GET['koer'];
 
 
 ?>
