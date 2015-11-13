@@ -21,5 +21,12 @@ if ($eesnimi_algab_vokaaliga) {
 echo '<br>'.($var1 + $var2);
 echo '<br>'.$_GET['koer'];
 
+if (isset($_POST['kass'])) {
+    echo 'Kass oli:'.$_POST['kass'];
+}
 
 ?>
+<form action = "?">
+    <input name="kass" placeholder = "kassi tõug">
+    <input type = "submit">
+</form>
